@@ -41,7 +41,7 @@
                               SelectedValue="{Binding Settings.X264.PixelFormat, Mode=TwoWay}"
                               Margin="0,5"/>
 
-                    <Label Content="yuv420p has wider support whereas yuv444p has better quality"
+                    <Label Content="yuv420p has wider support whereas yuv444p and rgb24 has better quality"
                            Grid.Row="1"
                            Grid.ColumnSpan="2"
                            FontWeight="Light"

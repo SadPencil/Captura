@@ -23,9 +23,9 @@ namespace Captura
         }
 
         /// <summary>
-        /// yuv420p has better compatibility whereas yuv444p has better quality
+        /// yuv420p has better compatibility whereas yuv444p and rgb24 has better quality
         /// </summary>
-        public static IEnumerable<string> PixelFormats { get; } = new[] { "yuv420p", "yuv444p" };
+        public static IEnumerable<string> PixelFormats { get; } = new[] { "yuv420p", "yuv444p", "rgb24" };
 
         public string PixelFormat
         {
